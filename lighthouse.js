@@ -27,7 +27,7 @@ const results = [];
 
 // Launch Chrome
 const launchChrome = async () => {
-  return await chromeLauncher.launch({chromeFlags: ['--disable-gpu']});
+  return await chromeLauncher.launch({chromeFlags: ['--disable-gpu',, '--headless'});
 };
 
 // Run Lighthouse
